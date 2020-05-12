@@ -1,1 +1,45 @@
+ion-title{
+  color: #00cdd4;
+};
 
+
+.card-background-page{
+  ion-card {
+    position: relative;
+    text-align: center;
+  };
+  .card-title {
+    position: absolute;
+    top: 45%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bolder;
+    color: #1e00ff;
+  };
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #ff0088;
+    font-weight: bold;
+
+
+  };
+};
+div {
+  text-align: center;
+}
+
+ion-content{
+  --ion-background-color: #2ec4d1;
+}
+
+
+ion-icon {
+  font-size: 30px;
+};
+
+.flare{
+  color: black !important;
+};

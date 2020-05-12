@@ -1,9 +1,54 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      The Feed
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content class="card-background-page" padding>
+
+  <ion-card>
+    <img src= "https://images.businessoffashion.com/site/uploads/2019/07/Mentorship.jpg?auto=format%2Ccompress&crop=top&fit=crop&h=275&w=494"/>
+    <div class="card-title">Mentoring Scheme</div>
+    <div class="card-subtitle"></div>
+  </ion-card>
+
+  <ion-card>
+    <img src= "https://peopleandthoughts.files.wordpress.com/2017/11/casteism-india_peopleandthoughts.png?w=900"/>
+    <div class="card-title">Community</div>
+    <div class="card-subtitle"></div>
+  </ion-card>
+
+  <ion-card>
+    <img src= "https://pestleanalysis.com/wp-content/uploads/2016/06/swot-analysis-opportunities-definition-examples.jpg"/>
+    <div class="card-title" padding>Opportunities</div>
+    <div class="card-subtitle" padding></div>
+  </ion-card>
+
+  <ion-tabs>
+    <ion-tab-bar slot="top">
+      <ion-tab-button tab="home">
+        <ion-icon name="home" color="light"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="notifications">
+        <ion-icon name="star" color="light"></ion-icon>
+        <ion-label>Notications</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="messages">
+        <ion-icon name="mail" color="light"></ion-icon>
+        <ion-label>Messages</ion-label>
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+
+      <ion-tab-button tab="account">
+        <ion-icon name="contact" color="light"></ion-icon>
+        <ion-label>Account</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+</ion-content>

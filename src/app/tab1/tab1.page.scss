@@ -2,3 +2,30 @@
   max-height: 35vh;
   overflow: hidden;
 }
+img src {
+  background-size: cover;
+};
+
+.join {
+  font-size: 40px;
+};
+
+ion-content {
+  --ion-background-color:#2ec4d1;
+  color: white;
+}
+
+ion-item {
+  color: white;
+  font-weight: 700;
+};
+
+ion-label {
+  color: white;
+  font-weight: bold;
+};
+
+ion-card-title {
+  color: white;
+  font-weight: bolder;
+};
